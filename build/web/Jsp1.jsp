@@ -12,6 +12,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Ingresa tu nombre</h1>
+        <form id="form1" action="Jsp2.jsp">
+            <input id="aa1" name="aa1" type="text" />
+            <br/><br/>
+            <input type="submit" value="Enviar">
+        </form>
+            
     </body>
 </html>
