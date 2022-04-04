@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Jsp1
-    Created on : 4 abr. 2022, 09:16:50
-    Author     : santi
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,6 +6,16 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Hola, ingresa tu nombre iniciando con mayuscula</h1>
+        <form id="form2" action="Servlet1">
+            Mi nombre es:
+            <input id="Nmb" name="Nmb" type="Text">
+            <input id="Ingresar" name="Ingresar" value="Ingresar" type="submit">
+        </form>
+        </br>
+        <p>Nombres admitidos: </br>
+        David &emsp; &emsp; &emsp; Angel &emsp; &emsp; &emsp; Geraldine</br>
+        Diego &emsp; &emsp; &emsp; Miguel &emsp; &emsp; &emsp; German</br>
+        </p>
     </body>
 </html>
