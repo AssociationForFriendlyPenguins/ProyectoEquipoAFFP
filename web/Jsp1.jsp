@@ -14,8 +14,12 @@
         </form>
         </br>
         <p>Nombres admitidos: </br>
-        David &emsp; &emsp; &emsp; Angel &emsp; &emsp; &emsp; Geraldine</br>
-        Diego &emsp; &emsp; &emsp; Miguel &emsp; &emsp; &emsp; German</br>
+        David &emsp; &emsp; &emsp; Angel &emsp; &emsp; &nbsp; Geraldine</br>
+        Diego &emsp; &emsp; &emsp; Miguel &emsp; &emsp; &nbsp; German</br>
+        Adriana &emsp; &emsp; &nbsp; Itztli &emsp; &emsp; &emsp; Axel</br>
+        Diana &emsp; &emsp; &emsp; Hugo &emsp; &emsp; &nbsp; Jessica</br>
+        Josue &emsp; &emsp; &emsp; Julio &emsp; &emsp; &nbsp; Santiago</br>
+        Vania
         </p>
     </body>
 </html>

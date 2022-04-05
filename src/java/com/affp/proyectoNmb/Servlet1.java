@@ -42,6 +42,7 @@ public class Servlet1 extends HttpServlet {
             out.println("<body>");
             String Nombre = null;
             Nombre = request.getParameter("Nmb");
+            out.println("<a href=\"Jsp1.jsp\"><h2>Regresar</h2></a>");
             out.println("<h1>¿Qué significa " + Nombre +"?</h1>");
             if (Nombre.equals("David")){
                 out.println("El nombre David proveniente Daoud o Yadad que significa \"amado\" o \"querido\"." + "<br>"
@@ -78,6 +79,46 @@ public class Servlet1 extends HttpServlet {
                         + ". En su origen latino lo llevan a la palabra \"Germanus\", cambiando su significado a \"Aquel que es un hermano\".\n");
                             out.println("<img src=\"German.jpg\"alt=\"\" height=\"500\" />" + "<br>");
             }
+            if (Nombre.equals("Adriana")) {
+                out.println("Antigua ciudad a orillas del Mar Adrático" + "<br>");
+                out.println("<img src=\"Adriana.jpg\"alt=\"\" height=\"500\" />" + "<br>");
+            }
+                if (Nombre.equals("Julio")) {
+                    out.println("Joven, deriva de los jóvenes que recién tienen barba" + "<br>");
+                    out.println("<img src=\"Julio.jpg\"alt=\"\" height=\"500\" />" + "<br>");
+                }
+                    if (Nombre.equals("Itztli")){
+                        out.println("Obsidiana" + "<br>");
+                        out.println("<img src=\"obsidiana.jpg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Diana")){
+                        out.println("Princesa, aquella de naturaleza divina" + "<br>");
+                        out.println("<img src=\"Diana.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Vania")){
+                        out.println("Significa poseedora de la gracia de Dios" + "<br>");
+                        out.println("<img src=\"Vania.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Axel")){
+                        out.println("Significa padre de la paz" + "<br>");
+                        out.println("<img src=\"Axel.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Santiago")){
+                        out.println("Significa Dios recompensará" + "<br>");
+                        out.println("<img src=\"Santiago.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Jessica")){
+                        out.println("Jessica significa la que puede ver el futuro" + "<br>");
+                        out.println("<img src=\"Jessica.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Hugo")){
+                        out.println("Significa hombre inteligente" + "<br>");
+                        out.println("<img src=\"Hugo.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
+                    if (Nombre.equals("Josue")){
+                        out.println("Significa Yahvé es el salvador" + "<br>");
+                        out.println("<img src=\"Josue.jpeg\"alt=\"\" height=\"500\" />" + "<br>");
+                    }
             out.println("</body>");
             out.println("</html>");
         }
